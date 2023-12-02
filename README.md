@@ -38,5 +38,5 @@ Thank you for visiting my portfolio! I hope you enjoy exploring my projects and 
 
 ## Link
 
-Please feel free to visit my live websit: https://agnesgeller.github.io/Bootstrap-Portfolio/
+Please feel free to visit my live website: https://agnesgeller.github.io/Bootstrap-Portfolio/
 ![My Portfolio](<Screenshot (4).png>)
