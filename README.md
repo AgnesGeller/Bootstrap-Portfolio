@@ -36,4 +36,8 @@ This portfolio is licensed under the [MIT License](https://opensource.org/licens
 
 Thank you for visiting my portfolio! I hope you enjoy exploring my projects and work samples. Feel free to reach out to me if you have any questions or would like to discuss collaboration opportunities.
 
+## Link
 
+Feel free to visit my portfolio webpage https://agnesgeller.github.io/Bootstrap-Portfolio/
+
+![Alt text](//assets/img/Screenshot%20(4).png<branch name>/path/to/image.png?raw=true "Bootstrap-Portfolio")
