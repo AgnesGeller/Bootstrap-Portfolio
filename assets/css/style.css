@@ -1,5 +1,5 @@
 body {
-    background: url('/assets/img/pexels-ivan-babydov-7787959.jpg') rgba(0,0,0,0.3);
+    background: url("/assets/img/pexels-ivan-babydov-7787959.jpg") rgba(0,0,0,0.3);
     background-blend-mode: multiply;
     background-position: center;
     background-repeat: no-repeat;
@@ -18,21 +18,29 @@ body {
    
 /* Jumbotron  */
 .rockBackground {
-  background-image: url("");
+  background-image: url("/assets/img/pexels-phil-desforges-3335697.jpg");
+  border: 5px solid whitesmoke;
   background-image: cover;
   background-repeat: no-repeat;
-  height: calc(50vh - 20px);
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
+
+
 /* Jumbotron copy */
 .jumboCopy {
   width: 70%;
-  min-width: 500px;
-  max-width: 700px;
-  color: rgb(66, 62, 62);
+  min-width: 800px;
+  max-width: 1000px;
+  color: whitesmoke;
   text-align: center;
 }
+.h1 {
+  display: flex;
+  text-align: left;
+}
+
+
 
