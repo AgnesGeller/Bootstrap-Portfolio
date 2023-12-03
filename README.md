@@ -38,7 +38,12 @@ Thank you for visiting my portfolio! I hope you enjoy exploring my projects and 
 
 ## Link
 
+<<<<<<< HEAD
 Please feel free to visit my live websit: https://agnesgeller.github.io/Bootstrap-Portfolio/
 
 
 ![My Portfolio](<Screenshot (4).png>)
+=======
+Please feel free to visit my live website: https://agnesgeller.github.io/Bootstrap-Portfolio/
+![My Portfolio](<Screenshot (4).png>)
+>>>>>>> 93a0c9116f5fc931b4327ed90f38128ae2e4f91d
