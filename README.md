@@ -40,4 +40,5 @@ Thank you for visiting my portfolio! I hope you enjoy exploring my projects and 
 
 Feel free to visit my portfolio webpage https://agnesgeller.github.io/Bootstrap-Portfolio/
 
-![Alt text](//assets/img/Screenshot%20(4).png<branch name>/path/to/image.png?raw=true "Bootstrap-Portfolio")
+
+![Screenshot (4)](https://github.com/AgnesGeller/Bootstrap-Portfolio/assets/147996856/afb118b8-6ef8-4a14-99c9-ef5ceacefa6e)
