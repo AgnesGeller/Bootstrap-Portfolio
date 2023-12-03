@@ -1,5 +1,7 @@
 body {
-    background: url("/assets/img/pexels-ivan-babydov-7787959.jpg") rgba(0,0,0,0.3);
+    background: url("../assets/img/pexels-ivan-babydov-7787959.jpg") rgba(0,0,0,0.3);
+    height: min-content
+    ;
     background-blend-mode: multiply;
     background-position: center;
     background-repeat: no-repeat;
