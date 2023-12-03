@@ -1,3 +1,19 @@
+body {
+    background: url('/assets/img/pexels-ivan-babydov-7787959.jpg') rgba(0,0,0,0.3);
+    background-blend-mode: multiply;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+   @media(max-width: 991px){
+    .sidebar {
+        background-color: rgba(255,255,255,0.15);
+        backdrop-filter: blur(10px);
+    }
+   }
+
+
+
 .container {
     margin: 50px;
     padding-top: 50px;
