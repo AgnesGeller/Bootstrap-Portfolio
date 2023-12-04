@@ -86,7 +86,7 @@ footer {
 
 /* Hover Effect on Social Media Icons */
 .socialicons a:hover {
-  background-color: red;
+  background-color: whitesmoke;
   transition: 0.5s;
 }
 
@@ -106,7 +106,7 @@ list-style-type: none;
 }
 
 .footerNav ul li a {
-  color: red;
+  color: rgb(34, 30, 30);
   margin: 20px;
   text-decoration: none;
   font-size: 1.3rem;
