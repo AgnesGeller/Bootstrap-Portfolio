@@ -8,7 +8,6 @@ body {
 }
 .navbar-icon {
   background: none;
-  display: inline;
 
 }
 
@@ -86,12 +85,12 @@ footer {
 
 /* Hover Effect on Social Media Icons */
 .socialicons a:hover {
-  background-color: whitesmoke;
+  background-color: whi;
   transition: 0.5s;
 }
 
 .socialicons a:hover i{
-  background-color: green;
+  background-color: #80f780;
   transition: 0.5s;
 }
 
@@ -106,7 +105,7 @@ list-style-type: none;
 }
 
 .footerNav ul li a {
-  color: rgb(34, 30, 30);
+  color: rgb(192, 62, 62);
   margin: 20px;
   text-decoration: none;
   font-size: 1.3rem;
