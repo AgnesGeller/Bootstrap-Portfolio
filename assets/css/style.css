@@ -77,7 +77,7 @@ footer {
   margin: 10px;
   border-radius: 50%;
 }
-.socialicons a {
+.socialicons a i{
   font-size: 2em;
   color: black;
   opacity: 0.9;
