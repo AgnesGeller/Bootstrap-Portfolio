@@ -1,5 +1,5 @@
 body {
-    background: url("/assets/img/pexels-ivan-babydov-7787959.jpg") rgba(0,0,0,0.3);
+    background: url("../img/ko.jpg") rgba(0,0,0,0.3);
     height: min-content
     ;
     background-blend-mode: multiply;
@@ -21,7 +21,7 @@ body {
    
 /* Jumbotron  */
 .rockBackground {
-  background-image: url("/assets/img/pexels-phil-desforges-3335697.jpg");
+  background-image: url("../img/black.jpg");
   border: 5px solid whitesmoke;
   background-image: cover;
   background-repeat: no-repeat;
@@ -122,7 +122,7 @@ list-style-type: none;
   text-align: center;
 }
 .footerBottom p {
-  color: yellow;
+  color: white;
 }
 .designer {
   opacity: 0.7;
