@@ -1,55 +1,80 @@
+/* Global */
+
 body {
-    background: url("../img/ko.jpg") rgba(0,0,0,0.3);
-    height: min-content
-    ;
-    background-blend-mode: multiply;
-    background-position: center;
-    background-repeat: no-repeat;
-}
-.navbar-icon {
-  background: none;
-
-}
-
-   @media(max-width: 991px){
-    .sidebar {
-        background-color: rgba(255,255,255,0.15);
-        backdrop-filter: blur(10px);
-    }
-   }
-   
-/* Jumbotron  */
-.rockBackground {
-  background-image: url("../img/black.jpg");
-  border: 5px solid whitesmoke;
-  background-image: cover;
+  background: url("../img/ko.jpg") rgba(0, 0, 0, 0.3);
+  height: min-content;
+  background-size: cover;
+  background-blend-mode: multiply;
+  background-position: center;
   background-repeat: no-repeat;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-.p col {
-  margin-top: 30px;
-  margin-bottom: 30px;
 }
 
 h3 {
   margin-top: 30px;
 }
 
+/* Navigation bar */
 
-/* Jumbotron copy */
+.navbar-icon {
+  background: none;
+}
+
+/* Hero Section */
+
+.rockBackground {
+  background-image: url("../img/black.jpg");
+  border-bottom: 5px solid whitesmoke;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 .jumboCopy {
-  width: 70%;
-  min-width: 800px;
-  max-width: 1000px;
   color: whitesmoke;
   text-align: center;
 }
+
+/* Projects Section */
+
 .card-container flex {
   padding: 10px;
   margin: 20px;
 }
+
+/* Contact Section */
+
+.socialicons {
+  display: flex;
+  justify-content: center;
+}
+
+.socialicons a {
+  text-decoration: none;
+  padding: 10px;
+  background-color: white;
+  margin: 10px;
+  border-radius: 50%;
+}
+
+.socialicons a i {
+  font-size: 2em;
+  color: black;
+  opacity: 0.9;
+}
+
+.socialicons a:hover {
+  background-color: white;
+  transition: 0.5s;
+}
+
+.socialicons a:hover i {
+  background-color: #80f780;
+  transition: 0.5s;
+}
+
+/* Footer */
 
 .footerContainer {
   padding: 0;
@@ -66,42 +91,14 @@ footer {
   padding: 70px 30px 20px;
 }
 
-.socialicons {
-  display: flex;
-  justify-content: center;
-}
-.socialicons a {
-  text-decoration: none;
-  padding: 10px;
-  background-color: white;
-  margin: 10px;
-  border-radius: 50%;
-}
-.socialicons a i{
-  font-size: 2em;
-  color: black;
-  opacity: 0.9;
-}
-
-/* Hover Effect on Social Media Icons */
-.socialicons a:hover {
-  background-color: whi;
-  transition: 0.5s;
-}
-
-.socialicons a:hover i{
-  background-color: #80f780;
-  transition: 0.5s;
-}
-
 .footerNav {
   margin: 30px 0;
 }
 
 .footerNav ul {
-display: flex;
-justify-content: center;
-list-style-type: none;
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
 }
 
 .footerNav ul li a {
@@ -112,17 +109,21 @@ list-style-type: none;
   opacity: 0.7;
   transition: 0.5s;
 }
+
 .footerNav ul li a:hover {
   opacity: 1;
 }
+
 .footerBottom {
   background-color: #111;
   padding: 20px;
   text-align: center;
 }
+
 .footerBottom p {
   color: white;
 }
+
 .designer {
   opacity: 0.7;
   text-transform: uppercase;
@@ -130,13 +131,26 @@ list-style-type: none;
   font-weight: 400;
   margin: 0px 5px;
 }
+
+/* Mobile view*/
+
 @media (max-width: 700px) {
   .footerNav ul {
     flex-direction: column;
   }
+
   .footerNav ul li {
     width: 100%;
     text-align: center;
     margin: 10px;
+  }
+
+  .card {
+    margin-bottom: 20px;
+  }
+
+  .sidebar {
+    background-color: rgba(255, 255, 255, 0.15);
+    backdrop-filter: blur(10px);
   }
 }
