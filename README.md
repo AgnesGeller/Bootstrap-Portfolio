@@ -1,6 +1,6 @@
 # Bootstrap-Portfolio
 
-My first portfolio
+My first portfolio using Bootstrap
 
 ## About Me
 
