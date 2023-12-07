@@ -8,7 +8,7 @@ This section provides a brief introduction about myself, including my background
 
 ## Projects
 
-In this section, I showcase some of my notable projects. Each project is displayed with a link to view more details. Projects are using CSS to make it visually appealing.
+In this section, I showcase some of my notable projects. Each project is displayed with a link to view more details. Projects are using Html, CSS, and Bootstrap to make it visually appealing.
 
 ## Work Samples
 
